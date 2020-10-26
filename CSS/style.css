@@ -1,0 +1,56 @@
+@font-face
+{
+    font-family:"Neon80s";
+    src:url("../CSS/FONT/Neon.ttf") format(".ttf");
+}
+
+
+
+body
+    {
+    background-image:url(../IMAGES/fond\ ecran\ ok\ html\ png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+header
+    {
+    background-image:url(../IMAGES/bandeau\ test\ 11.png);
+    background-position: center;
+    background-size: cover;
+    margin: -2 auto;
+    height: 300px;
+    }
+
+.container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+.item
+    {
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 600px;
+    }
+
+button
+    {
+        background-size: cover;
+        margin: 100px;
+        padding: 20px;
+        background: #f47e0b;
+    }
+
+
+    
